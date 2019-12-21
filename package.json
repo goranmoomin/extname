@@ -1,0 +1,15 @@
+{
+    "name": "extname",
+    "version": "1.0.0",
+    "description": "Node.js path.extname for browsers and web-workers",
+    "main": "index.js",
+    "repository": "https://github.com/pcr910303/extname.git",
+    "author": "Sungbin Jo <pcr910303@icloud.com>",
+    "license": "MIT",
+    "scripts": {
+        "test": "node generate-tests.js > test.js && ava"
+    },
+    "devDependencies": {
+        "ava": "^2.4.0"
+    }
+}
