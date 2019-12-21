@@ -1,5 +1,5 @@
 {
-    "name": "extname",
+    "name": "browser-extname",
     "version": "1.0.0",
     "description": "Node.js path.extname for browsers and web-workers",
     "main": "index.js",
