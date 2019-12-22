@@ -17,21 +17,21 @@ A [`TypeError`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
 ``` javascript
 const extname = require("browser-extname");
 
-extname('index.html');
-// Returns: '.html'
+extname("index.html");
+// Returns: ".html"
 
-extname('index.coffee.md');
-// Returns: '.md'
+extname("index.coffee.md");
+// Returns: ".md"
 
-extname('index.');
-// Returns: '.'
+extname("index.");
+// Returns: "."
 
-extname('index');
-// Returns: ''
+extname("index");
+// Returns: ""
 
-extname('.index');
-// Returns: ''
+extname(".index");
+// Returns: ""
 
-extname('.index.md');
-// Returns: '.md'
+extname(".index.md");
+// Returns: ".md"
 ```
