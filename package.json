@@ -10,6 +10,6 @@
         "test": "node generate-tests.js > test.js && ava"
     },
     "devDependencies": {
-        "ava": "^2.4.0"
+        "ava": "^3.5.0"
     }
 }
